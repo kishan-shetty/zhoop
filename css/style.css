@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#logo-home
+{
+  width: 100px;
+}
+
+.navbar-default
+{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.main-home
+{
+  background-image: url('../img/bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 10px;
+}
+
+#main-hero
+{
+  margin-top: 25vh;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 38px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-right
+{
+  margin-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover
+{
+  color: #ddd;
+}
+
+.button-home-cta
+{
+  text-align: center;
+/*  background-color: #ff8800;*/
+  /*float: left;*/
+  text-align: center;
+  margin:20px;
+  padding: 20px 50px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 18px;
+  border: 2px solid #fff;
+  transition: 0.2s;
+}
+
+.cat
+{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.cat:hover
+{
+  color: #fff;
+  border: 2px solid #c76a00;
+}
+
+.button-home-cta:hover
+{
+  background-color: rgba(255, 136, 0, 0.7);
+  border: 2px solid #c76a00;
+}
+
+.zhoop-butts
+{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.home-bot
+{
+  margin-top: 40px;
+  height: 160px;
+  background-image: url(../img/home-bot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-bot2
+{
+  margin-top: 100px;
+  margin-bottom: -100px;
+  height: 160px;
+  background-image: url(../img/home-bot2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about
+{
+  height: 250px;
+  background-color: #ffffff;
+/*  margin-top: -3px;*/
+}
+
+.serv-welcome
+{
+  background-color: #333;
+  background-image: url(../img/stardust.png);
+  background-attachment: fixed;
+  height: 1100px;
+}
+
+.bout
+{
+  padding: 50px;
+}
+
+.b
+{
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.a h2
+{
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.services
+{
+  padding-top: 40px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+/*  height: 500px;*/
+  border-radius: 5px;
+  margin-top: -900px;
+  text-align-last: center;
+  box-shadow: 0px 3px 10px rgba(51, 51, 51, 0.3);
+}
+
+.wedo
+{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.wedo h3
+{
+  color: #333;
+}
+
+.wedo h4
+{
+  line-height: 1.5;
+  color: #666;
+}
+
+
+.services h2
+{
+  margin: 20px 0px 50px 0px;
+}
+
+.clients
+{
+  margin-top: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.base
+{
+  height: 70px;
+  background-image: url(../img/base.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
